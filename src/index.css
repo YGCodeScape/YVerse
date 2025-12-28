@@ -29,11 +29,30 @@ body {
   font-family: var(--font-classic);
 }
 
-
-
-/* 
-background: rgba(255, 255, 255, 0.08);
+.sidebar-holder {
+  width: 15%;
+  height: 97vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 8px 0 0 10px;
+  margin: 10px 20px 10px 10px;
+  background: rgba(255, 255, 255, 0.08);
 backdrop-filter: blur(12px);
 -webkit-backdrop-filter: blur(12px);
 border-radius: 16px;
- */
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.top-row {
+  display: flex;
+  align-items: center;
+}

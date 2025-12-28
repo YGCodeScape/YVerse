@@ -3,7 +3,7 @@ import Sidebar from './Components/Sidebar'
 
 const App = () => {
   return (
-    <div>
+    <div className='app-layout'>
        <Sidebar />
     </div>
   )

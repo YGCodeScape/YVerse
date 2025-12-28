@@ -2,10 +2,17 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div>
-        {/* <img src="./src/assets/YV logo2.PNG" alt="" /> */}
+    <div className='sidebar-holder'>
+        <div className="top-row">
+            <div className="logo-img">
+                 <img src="./src/assets/YV logo2.PNG" alt=""  className='log-img' />
+            </div>
+            <h2>YVerse</h2>
+        </div>
     </div>
   )
 }
 
 export default Sidebar
+
+{/* <img src="./src/assets/YV logo2.PNG" alt="" /> */}
