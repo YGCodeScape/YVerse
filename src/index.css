@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-gradient:  radial-gradient(
+    circle at top,
+    #3b1d5f,
+    #12071f 70%
+  );
+  --font-classic: "Nunito", sans-serif;
+  --font-bold: "Bebas Neue", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  min-height: 100vh;
+  background:var(--bg-gradient);
+  color: #fff;
+  font-family: var(--font-classic);
+}
+
+
+
+
+
+/* 
+background: rgba(255, 255, 255, 0.08);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border-radius: 16px;
+ */
