@@ -2,7 +2,9 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div>
+        {/* <img src="./src/assets/YV logo2.PNG" alt="" /> */}
+    </div>
   )
 }
 
