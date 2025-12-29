@@ -4,10 +4,22 @@ const Sidebar = () => {
   return (
     <div className='sidebar-holder'>
         <div className="top-row">
+           <div className="logo">
             <div className="logo-img">
                  <img src="./src/assets/YV logo2.PNG" alt=""  className='log-img' />
             </div>
-            <h2>YVerse</h2>
+              <h2>YVerse</h2>
+           </div>
+            <div className="menu-icon">
+              <div className="menu-ham">
+                  <div className="menu-bar"></div>
+                  <div className="menu-bar"></div>
+                  <div className="menu-bar"></div>
+              </div>
+              {/* <div className="menu">
+                mobile menu will be here
+              </div> */}
+            </div>
         </div>
     </div>
   )
