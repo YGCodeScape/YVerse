@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar-holder {
-  width: 15%;
+  width: 17%;
   height: 97vh;
   position: fixed;
   top: 0;
@@ -60,26 +60,30 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
 }
-.top-row h2 {
+.logo h2 {
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  line-height: 0;
+  text-align: center;
+  color: #f9f9fc;
+  font-family:  "Bagel Fat One", system-ui;
+  letter-spacing: 2px;
+  /* transform: scaleY(1.7); */
 }
-.menu-icon {
-  width: 30px;
-  height: 30px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
+
 .menu-ham {
-  width: 100%;
-  height: 100%;
+  width: 25px;
+  height: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 4px;
+  position: relative;
+  cursor: pointer;
 }
 .menu-bar {
    width: 100%;
