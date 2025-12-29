@@ -16,6 +16,11 @@ const Sidebar = () => {
                <div className="menu-bar"></div>
            </div>
         </div>
+        <nav>
+          <div className="nav-tag">
+            <span>Home</span>
+          </div>
+        </nav>
     </div>
   )
 }
